@@ -1,0 +1,34 @@
+A re-introduction to JavaScript (JS tutorial):
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
+
+Special for loops:
+    for (let value of array) {
+        // do something with value
+    }
+    for (let property in object) {
+        // do something with object property
+    }
+
+Ternary Operator
+    var allowed = (age > 18) ? 'yes' ; 'no';
+
+Objects:
+    var obj = {};
+    
+    Object Prototypes (Classes)
+    function Person(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+    Person.prototype.fullName = function() {
+        return this.first + ' ' + this.first;
+    };
+
+    // Define an object
+    var you = new Person('You', 24);
+    // We are creating a new person named "You" aged 24.
+
+Functions
+    Rest Parameter Operator
+    ...variable // captures remaining arguments to an array
+

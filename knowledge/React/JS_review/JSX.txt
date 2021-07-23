@@ -1,0 +1,10 @@
+Example:
+    const name = 'Josh Perez';
+    // curly braces house any JS expression
+    const element = <h1>Hello, {name}</h1>;
+
+    ReactDOM.render(
+        element,
+        document.getElementById('root')
+    );
+
