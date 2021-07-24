@@ -1,0 +1,16 @@
+CREATE-REACT-APP
+Install Node.js and npm
+    sudo apt install nodejs
+    sudo apt install npm
+
+Create an app:
+    npx create-react-app my-app
+    cd my-app
+    npm start
+
+    In case of failure:
+        // try this command and recreate the app
+        npm cache clean --force
+
+Create optimized build for production:
+    npm run build
